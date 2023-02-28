@@ -1,0 +1,14 @@
+.container-Visor {
+  border: 1px solid white;
+  max-height: 100px;
+  max-width: 300px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.container-Visor p {
+  padding: 10px;
+  font-size: 30px;
+}

@@ -1,0 +1,30 @@
+.container-Buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 400px;
+  max-width: 300px;
+}
+
+button:first-child {
+  width: 225px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(253, 175, 103);
+}
+
+button {
+  width: 75px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:nth-child(15) {
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:active {
+  border: 1px solid black;
+}
